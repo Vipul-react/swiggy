@@ -1,0 +1,268 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  height: 80px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); */
+}
+
+.logo{
+  display: flex;
+}
+
+.logo h1{
+  padding: 25px;
+  font-weight: 600;
+  font-size: x-large;
+  font-style: normal;
+  margin-left: 2px;
+}
+
+.logo img{
+  width: 80px;
+}
+
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  padding: 25px;
+  font-weight: 500;
+  font-size: larger;
+  font-style: normal;
+}
+
+.nav ul li{
+  margin-left: 70px;
+}
+
+.body{
+  background-color: rgb(250, 249, 249);
+}
+
+.search input{
+  background-color: rgb(222, 219, 219);
+}
+
+.filter-btn{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.search{
+  padding: 10px;
+  background-color: rgb(222, 221, 221);
+  border-radius: 8px;
+  font-weight: 650;
+  font-size: large;
+  /* border: 2px, solid, rgb(144, 120, 120) */
+  /* box-shadow: 4px 4px 2px 2px black; */
+}
+
+.fil-btn{ 
+  padding: 10px;
+  background-color: rgb(222, 221, 221);
+  border-radius: 8px;
+  font-weight: 650;
+  font-size: large;
+}
+
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  justify-content: space-around;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.shimmerContainer{
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+  justify-content: space-around;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.resShimmer{
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+  border: 2px solid rgb(130, 129, 129);
+}
+
+.resCard{
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+}
+
+.resCard img{
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.resCard h1{
+  font-weight: 650;
+  font-size: 18px;
+}
+
+.resCard h2{
+  font-weight: 500;
+}
+
+.promoted-card label{
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 3px;
+}
+.menu-color{
+  background-color: rgb(245, 245, 245);
+}
+.res-menu{
+  /* margin-left: 400px;
+  margin-right: 400px; */
+  padding-top: 30px;
+  padding-left: 400px;
+  padding-right: 400px;
+  min-height: 740px;
+  /* text-align: center; */
+}
+
+.res-menu h1{
+  font-weight:bolder;
+  font-size:xx-large;
+}
+
+.res-menu h4{
+  font-size:medium;
+  font-weight: 500;
+}
+
+.res-category{
+  border-bottom: 15px solid rgb(235, 233, 233);
+  padding: 10px;
+
+}
+
+.res-category h2{
+  font-weight: 700;
+  font-size:x-large;
+} 
+
+.box-sha{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.res-category h2:hover{
+  cursor: pointer;
+} 
+
+.item-list h4{
+  font-weight: 700;
+  font-size: large;
+}
+.item-list h5{
+  font-weight: 600;
+  font-size: medium;
+}
+.item-list h4{
+  font-weight: 600;
+  font-size: large;
+}
+
+.item{
+  display: flex;
+  padding: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-top : 1px solid rgb(203, 202, 202);
+}
+.item button{
+  position: absolute;
+  background-color: white;
+  font-weight: 800;
+  font-size: medium;
+  color: green;
+  border: 2px, solid, rgb(137, 136, 136);
+  border-radius: 8px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 105px;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.item-info{
+  width: 550px;
+}
+.item-list div img{
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.cart{
+  justify-content: center;
+  width: 700px;
+  margin-left: 400px;
+}
+
+.cart h1{
+  background-color: white;
+  width: 70px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: xx-large;
+  color: black
+}
+
+.cart button{
+  background-color: white;
+  font-weight: 800;
+  font-size: medium;
+  color: rgb(136, 18, 26);
+  border: 2px, solid, rgb(137, 136, 136);
+  border-radius: 8px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+  margin-right: 27px;
+}
+
+.contact h3{
+  color: rgb(18, 18, 29);
+  font-size: xx-large;
+  margin: 40px;
+}
+
+.contact input{
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 10px;
+  margin : 20px;
+}
+
+.contact button{
+  background-color: white;
+  font-weight: 800;
+  font-size: medium;
+  color: rgb(136, 18, 26);
+  border: 2px, solid, rgb(137, 136, 136);
+  border-radius: 8px;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
