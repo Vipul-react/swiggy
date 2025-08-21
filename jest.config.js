@@ -194,9 +194,10 @@
 // };
 
 module.exports = {
-  transform: {
-      "^.+\\.jsx?$": "babel-jest",
-  },
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
+  testEnvironment: 'jsdom',
+  // add other config here
 };
+
 
 

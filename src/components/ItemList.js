@@ -6,6 +6,7 @@ const ItemList = ({ items }) => {
   console.log(items)
   const dispatch = useDispatch();
   const handleAddItems= (data)=>{
+  
     dispatch(addItem(data))
   }
   return (
